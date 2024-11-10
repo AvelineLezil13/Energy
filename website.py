@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 
 # Load the data
-df = pd.read_excel("Combined_State.xlsx ")
+df = pd.read_excel("Combined_State.xlsx")
 df.columns = df.columns.astype(str)
 
 st.header("Energy related data from ACS")
